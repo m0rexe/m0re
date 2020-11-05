@@ -1,0 +1,46 @@
+.div_1, .div_2{
+    width: 100px;
+    height: 100px;
+}
+
+.div_1{
+    left: 50px;
+    top: 100px;
+    background-color: black;
+}
+
+.div_2{
+    left: 100px;
+    top: 200px;
+    background-color: red;
+}
+
+p.p_1, p.p_2{
+    position: absolute;
+}
+
+p.p_1{
+    left: 50px;
+    top: 230px;
+    border: 2px solid green;
+}
+
+p.p_2{
+    left: 150px;
+    top: 238px;
+    border: 2px solid red;
+}
+
+p.p_3{
+    left: 50px;
+    top: 560px;
+    border: 2px solid green;
+    position: absolute;
+}
+
+p.p_4{
+    left: 150px;
+    top: 578px;
+    border: 2px solid red;
+    position: fixed;
+}

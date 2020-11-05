@@ -1,0 +1,62 @@
+html{
+    background-color: rgb(253, 244, 232);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nawigacja{
+    text-transform: uppercase;
+    color: #272626;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+ul>li:hover{
+    color: rgb(247, 60, 60);
+}
+
+#galeria{
+    width: 700px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 40px 40px 40px 70px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+}
+
+div#galeria > a{
+    text-decoration: none;
+}
+
+div#galeria > a > img{
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+    transition: all ease-in-out 0.6s;
+}
+
+div#galeria > a > img:hover{
+    border: 1px solid red;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.6s;
+}
+
+footer{
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 10px;
+}

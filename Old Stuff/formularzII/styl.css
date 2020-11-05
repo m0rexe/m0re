@@ -1,0 +1,39 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #02639a;
+    margin: 10px;
+}
+
+fieldset{
+
+    border: 2px solid #02639a;
+    background-color: #e5f0f7;
+    padding: 3px;
+    width: 250px;
+}
+
+legend{
+
+    color: #02639a;
+    background-color: #d1e8f7;
+    border: 5px solid #02639a;
+    text-transform: uppercase;
+    padding: 3px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.mb{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input{
+
+    color: #02639a;
+}

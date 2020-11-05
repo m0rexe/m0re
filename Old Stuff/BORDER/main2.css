@@ -1,0 +1,31 @@
+.strzalka_bg .strzalka1, .strzalka_bg .strzalka2,
+.strzalka_bg .strzalka3, .strzalka_bg .strzalka4{
+
+   display: block;
+   position: absolute;
+   height: 0;
+   width: 50px;
+   border: 20px solid transparent;
+}
+
+.strzalka_bg .strzalka1, .strzalka_bg .strzalka3 {
+
+   border-top-color: #b50e42;
+}
+
+.strzalka_bg .strzalka2, .strzalka_bg .strzalka4{
+
+   border-bottom-color: #b50e42;
+}
+
+.strzalka_bg .strzalka3{
+
+   left: 20px;
+   top: 20px;
+}
+
+.strzalka_bg .strzalka4{
+
+   left: 20px;
+   top: -20px;
+}

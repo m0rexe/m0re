@@ -1,0 +1,118 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #DDD;
+    color: white;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+#naglowek {
+
+    background-color: #ff587f;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1{
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#lewy {
+
+    float:left;
+    /* background-color:#DDD; */
+    min-height:150px;
+    width:50%;
+}
+
+#prawy {
+
+    float:left;
+    /* background-color:#EEE; */
+    min-height:150px;
+    width:50%;
+    justify-content: center;
+    color: #000;
+}
+
+#stopka {
+
+    clear:both;
+    background-color:#ff587f;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4{
+
+    text-transform: uppercase;
+}
+
+p {
+
+    margin:0;
+    padding:15px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    min-height: 200px;
+}
+
+.l{
+
+    /* width: 50%; */
+    width: 300px;
+    /* background-color: pink; */
+    background-image: url(img/cukierki1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#zamowienia{
+
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo{
+
+    height: 200px;
+}
+
+.tabelka{
+
+    justify-content: center;
+    text-align: center;
+}
+
+table, td {
+
+    border: 2px dashed #ff587f;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+ol{
+
+    text-align: left;
+}

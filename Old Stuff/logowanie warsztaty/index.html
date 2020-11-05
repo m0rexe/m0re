@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=pl>
+
+<head>
+    <meta charset="utf-8">
+    <title>َLogowanie do forum</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="box">
+        <form action="rejestracja.html" method="POST">
+
+            <div id="a">
+                <h1>Rejestracja</h1>
+            </div>
+
+            <div id="a">
+                <label>Imię:</label>
+                <input type="text" id="Imie" placeholder="Imie" autofocus><br>
+            </div>
+
+            <div id="a">
+                <label>Nazwisko:</label>
+                <input type="text" name="nazw" id="nazw" placeholder="Nazwisko"><br>
+            </div>
+
+            <div id="a">
+                <label>E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="E-mail"><br>
+            </div>
+
+            <div id="a">
+                <span class="title">Płeć: </span>
+                <input type="radio" id="M" name="pleć" value="M">
+                <label for="mezczyzna">M</label>
+                <input type="radio" id="K" name="plec" value="K">
+                <label for="kobieta">K</label><br>
+            </div>
+
+            <div id="a">
+                <span class="title">Miasto: </span>
+                <select id="miasto" name="miasto">
+                    <option value="krakow">Kraków</option>
+                    <option value="wroclaw">Wrocław</option>
+                    <option value="gdansk">Gdańsk</option>
+                    <option value="lublin">Lublin</option>
+                </select><br>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Zarejestruj się">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

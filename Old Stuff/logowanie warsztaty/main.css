@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Lato', sans-serif;
+}
+
+#a {
+
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+    display: flex;
+   	justify-content: space-between;
+}
+
+body{
+
+    background-image: url("img/prism.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.box{
+
+    background: #ffffff;
+    width: 300px;
+    padding: 100px;
+    -webkit-box-shadow: 6px 5px 29px 13px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 5px 29px 13px rgba(0,0,0,1);
+    box-shadow: 6px 5px 29px 13px rgba(0,0,0,1);
+
+}
+
+.title {
+    width: 90px;
+    text-align: start;
+ }
+ 
+ .radio-buttons {
+    display: flex;
+    justify-content: flex-start;
+ }
+ .option-location {
+    display: flex;
+    justify-content: flex-start;
+ 
+ }
+
+input[type="submit"] {
+
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+  
+ }
+
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+input[type="text"], input[type="email"]{
+    background-color: #f8faf8;
+    color: #666;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 2px;
+    height: 20px;
+ }
+ 
+ 
+ 
+ 
