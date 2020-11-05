@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcja 3 zdalna</title>
+</head>
+
+<body>
+
+    <!-- Zadanie 1 -->
+    <!-- #Napisz skrypt sprawdzający która z dwóch liczb podanych z klawiatury jest większa.  -->
+    <script>
+
+        let pierwszal = Number(prompt("Podaj pierwszą liczbę"))
+        let drugal = Number(prompt("Podaj drugą liczbę"))
+
+        if (pierwszal > drugal){
+            alert("Liczba " +pierwszal+ " jest większa")
+        }
+        else{
+            alert("Liczba "+drugal+ " jest większa")
+        }
+
+    </script>
+
+    <!-- Zadanie 2 -->
+    <!-- #Napisz skrypt sprawdzający czy użytkownik komputera jest pełnoletni. -->
+    <!-- <script>
+
+        let osiemnascie = 18
+        let wiek = Number(prompt("Podaj swój wiek"))
+
+        if (wiek >= osiemnascie){
+            alert("Jesteś pełnoletni!")
+        }
+        else{
+            alert("Nie jesteś pełnoletni!")
+        }
+
+    </script> -->
+
+    <!-- Zadanie 3 -->
+    <!-- #Napisz skrypt sprawdzający czy podana liczba jest ujemna, dodatnia lub równa zero. -->
+    <!-- <script>
+
+        let liczba = Number(prompt("Podaj liczbę"))
+
+        if (liczba > 0) {
+
+            alert("Liczba " + liczba + " jest dodatnia")
+        }
+
+        else if (liczba < 0) {
+
+            alert("Liczba " + liczba + " jest ujemna")
+        }
+
+        else {
+            alert("Liczba jest równa 0");
+        }
+
+    </script> -->
+
+    <!-- zadanie 4 -->
+    <!-- 4. Napisz skrypt sprawdzający czy podany rok przestępny. -->
+    <!-- <script>
+
+        let rok = Number(prompt("Podaj rok"))
+
+        if ((rok % 4 == 0 && rok % 100 != 0) || rok % 400 == 0) {
+            alert("Rok "+rok+" jest przestępny")
+        }
+        else {
+            alert("Rok "+rok+" nie jest przestępny")
+        }
+
+    </script> -->
+
+    <!-- zadanie 5 -->
+    <!-- 5. Napisz skrypt zamieniający nr miesiąca na jego nazwę. -->
+    <!-- <script>
+
+        let nrMsc = Number(prompt("Podaj numer miesiąca"))
+
+        if (nrMsc == 1) {
+            document.write("Styczeń")
+        }
+        else if (nrMsc == 2) {
+            document.write("Luty")
+        }
+        else if (nrMsc == 3) {
+            document.write("Marzec")
+        }
+        else if (nrMsc == 4) {
+            document.write("Kwiecień")
+        }
+        else if (nrMsc == 5) {
+            document.write("Maj")
+        }
+        else if (nrMsc == 6) {
+            document.write("Czerwiec")
+        }
+        else if (nrMsc == 7) {
+            document.write("Lipiec")
+        }
+        else if (nrMsc == 8) {
+            document.write("Sierpień")
+        }
+        else if (nrMsc == 9) {
+            document.write("Wrzesień")
+        }
+        else if (nrMsc == 10) {
+            document.write("Październik")
+        }
+        else if (nrMsc == 11) {
+            document.write("Listopad")
+        }
+        else if (nrMsc == 12) {
+            document.write("Grudzień")
+        }
+        else {
+            alert("Podano zły numer miesiąca")
+        }
+
+    </script> -->
+
+
+    <!-- Zadanie 6+ -->
+    <!-- <script>
+
+        let wzrost = Number(prompt("Podaj swój wzrost"))
+        let masa = Number(prompt("Podaj swoją masę"))
+
+        wzrost = wzrost/100
+        let bmi = masa / (wzrost*wzrost)
+
+
+        if (bmi <= 16) {
+            document.write("Wygłodzenie")
+        }
+        else if (bmi <= 18) {
+            document.write("Niedowaga")
+        }
+        else if (bmi <= 25) {
+            document.write("Prawidłowa waga, nie masz się o co martwić!")
+        }
+        else if (bmi <= 30) {
+            document.write("Nadwaga")
+        }
+        else if (bmi <= 35) {
+            document.write("I stopień otyłości")
+        }
+        else if (bmi <= 40) {
+            document.write("II stopień otyłości")
+        }
+        else if (bmi > 40){
+            document.write("Otyłość skrajna")
+        }
+        else{
+            alert("Nieprawidłowa wartość!")
+        }
+
+    </script> -->
+
+
+</body>
+
+</html>
