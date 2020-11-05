@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Garamond;
+}
+
+header{
+    background-color: RosyBrown;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.formularz{
+    background-color: DarkSalmon;
+    text-align: center;
+    padding: 40px;
+}
+
+.formularz>ol{
+    border: 2px solid rgb(205, 92, 92);
+    font-size: 105%;
+}
+
+.main{
+    display: flex;
+}
+
+.left, .right {
+    background-color: LightSalmon;
+    height: 300px;
+    width: 30%;
+}
+
+.mid {
+    background-color: LightSalmon;
+    height: 300px;
+    width: 40%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: RosyBrown;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
