@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Ogłoszenia</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portal ogłoszeniowy</h1>
+    </header>
+
+    <div class="main">
+        <div class="left">
+            <h2>Kategorie ogłoszeń</h2>
+            <div id="list">
+                <ol>
+                    <li>Książki</li>
+                    <li>Muzyka</li>
+                    <li>Filmy</li>
+                </ol>
+            </div>
+            <img src="img/ksiazki.jpg" alt="Kupię / sprzedam książkę">
+            <div id="table_">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Liczba ogłoszeń</th>
+                            <th>Cena ogłoszenia</th>
+                            <th>Bonus</th>
+                        </tr>
+                        <tr>
+                            <td>1 - 10</td>
+                            <td>1 PLN</td>
+                            <td rowspan="3">Subskrypcja newslettera to upus 0,20 PLN na ogłoszenie</td>
+                        </tr>
+                        <tr>
+                            <td>11 - 50</td>
+                            <td>0,80 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>51 i więcej</td>
+                            <td>0,60 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>Anna Kowalska – dodanie ogłoszenia</h1>
+
+            <form action="POST" class="add">
+                <span>Kategoria:</span><br>
+                <input type="number" min="1" max="3" id="kat">
+                <br>
+                <span>Podkategoria:</span><br>
+                <input type="number" min="1" max="5" id="pkat">
+                <br>
+                <span>Tytuł:</span><br>
+                <input type="text" id="txtTitle">
+                <br>
+                <span>Treść:</span><br>
+                <textarea rows="10" cols="40" id="txtArea"></textarea>
+                <br>
+                <input type="reset" value="WYCZYŚĆ" id="clear">
+                <input type="submit" value="WYŚLIJ" id="sub">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <span>Portal opracował: 000000000</span>
+    </footer>
+
+</body>
+
+</html>
+
+<!-- <form>
+    Student Name:<br>
+    <input type="text" name="sname">
+    <br>
+    Student Subject:<br>
+    <input type="text" name="ssubject">
+    <br>
+    <input type="reset" value="reset">
+ </form> -->
