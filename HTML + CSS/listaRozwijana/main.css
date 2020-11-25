@@ -81,8 +81,46 @@ span {
     align-items: center;
 }
 
-.txtBox {
+.upBox {
     color: wheat;
     font-size: 40px;
     text-align: center;
+}
+
+.txtBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.I #title {
+    color: tan;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.II #title, .III #title, .IV #title {
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.I, .II, .III, .IV {
+    border-bottom: 1px solid black;
+}
+
+.I #title:hover {
+    color: #BF9484;
+}
+
+.txtBox #description {
+    letter-spacing: 5px;
+}
+
+.txtBox #date {
+    font-size: 75%;
 }
