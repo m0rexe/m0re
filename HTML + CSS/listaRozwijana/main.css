@@ -1,126 +1,126 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 .nav {
-    background-color: rgb(54, 54, 54);
-    letter-spacing: 0.5px;
-    /* width: 55vw; */
+  background-color: rgb(54, 54, 54);
+  letter-spacing: 0.5px;
+  /* width: 55vw; */
 }
 
 .nav::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .nav ul {
-    text-align: center;
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
+  text-align: center;
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
 }
 
 .nav ul li {
-    width: 120px;
-    margin: 10px;
-    padding: 10px;
+  width: 120px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .nav ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .active, .nav ul li:hover {
-    background-color: rgb(26, 26, 26);
-    border-radius: 3px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 3px;
 }
 
 .dropdown {
-    display: none;
+  display: none;
 }
 
 .nav ul li:hover .dropdown {
-    display: block;
-    position: absolute;
-    background-color: rgb(102, 102, 102);
-    margin-top: 10px;
-    margin-left: -10px;
+  display: block;
+  position: absolute;
+  background-color: rgb(102, 102, 102);
+  margin-top: 10px;
+  margin-left: -10px;
 }
 
 .nav ul li:hover .dropdown ul {
-    display: block;
-    margin: 5px
+  display: block;
+  margin: 5px
 }
 
 .list {
-    float: right;
+  float: right;
 }
 
 span {
-    float: left;
-    padding: 15px;
+  float: left;
+  padding: 15px;
 }
 
 .image {
-    background-image: url(src/gory.png);
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url(src/gory.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .upBox {
-    color: wheat;
-    font-size: 40px;
-    text-align: center;
+  color: wheat;
+  font-size: 40px;
+  text-align: center;
 }
 
 .txtBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 30%;
-    margin-right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .I #title {
-    color: tan;
-    font-weight: bold;
-    font-size: 120%;
+  color: tan;
+  font-weight: bold;
+  font-size: 120%;
 }
 
 .II #title, .III #title, .IV #title {
-    font-size: 120%;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
+  font-size: 120%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
 }
 
 .I, .II, .III, .IV {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .I #title:hover {
-    color: #BF9484;
+  color: #BF9484;
 }
 
 .txtBox #description {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 .txtBox #date {
-    font-size: 75%;
+  font-size: 75%;
 }
