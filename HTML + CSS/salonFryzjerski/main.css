@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+}
+
+.left{
+  width: 70%;
+}
+
+.left h1{
+  text-transform: uppercase;
+  color: #50188D;
+}
+
+.right{
+  width: 30%;
+}
+
+.rup{
+  background-color: #4682B3;
+  align-items: center;
+}
+
+.right h1{
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.right ol{
+  margin-left: 50px;
+}
+
+.right ul{
+  margin-left: 30px;
+}
+
+.right h1{
+  text-align: center;
+}
+
+
+footer{
+  background-color: #4481B3;
+}
