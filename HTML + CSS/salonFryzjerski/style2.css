@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.promo{
+    display: flex;
+    flex-direction: column;
+    border: black 2px solid;
+    width: 450px;
+    background-color: snow;
+}

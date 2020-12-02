@@ -2,48 +2,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
-.main{
+.main {
   display: flex;
 }
 
-.left{
+.left {
   width: 70%;
+  height: 400px;
 }
 
-.left h1{
+.left h1 {
   text-transform: uppercase;
   color: #50188D;
 }
 
-.right{
+.lup {
+  text-align: center;
+}
+
+.lup #czesanie:hover {
+  border: brown 1px solid;
+  padding: 5px;
+}
+
+.ldown {
+  font-size: 150%;
+}
+
+.right {
   width: 30%;
 }
 
-.rup{
+.rup {
   background-color: #4682B3;
   align-items: center;
 }
 
-.right h1{
+.right h1 {
   text-transform: uppercase;
   color: #fff;
 }
 
-.right ol{
+.right ol {
   margin-left: 50px;
 }
 
-.right ul{
+.right ul {
   margin-left: 30px;
 }
 
-.right h1{
+.right h1 {
   text-align: center;
 }
 
+.rdown {
+  text-align: center;
+}
 
-footer{
+footer {
   background-color: #4481B3;
 }
