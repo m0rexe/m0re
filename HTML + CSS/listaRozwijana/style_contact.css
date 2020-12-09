@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    overflow: overlay;
+    background-color: #EFDDD6;
+}
+
+.nav {
+    background-color: rgb(54, 54, 54);
+    letter-spacing: 0.5px;
+    /* width: 55vw; */
+}
+
+.nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav ul {
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.nav ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active,
+.nav ul li:hover {
+    background-color: rgb(26, 26, 26);
+    border-radius: 3px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.nav ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: rgb(102, 102, 102);
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.nav ul li:hover .dropdown ul {
+    display: block;
+    margin: 5px
+}
+
+.list {
+    float: right;
+}
+
+#logo_camera {
+    float: left;
+    padding: 15px;
+}
+
+.sub-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.contact-form, .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-txt {
+    margin: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    border-radius: 2px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    outline: none;
+    padding: 2.5px;
+}
+
+button[type=submit] {
+    width: 100px;
+    padding: 2.5px;
+    border-radius: 2px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/* Formatowanie scrolla */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5C5C5C;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444444;
+}
