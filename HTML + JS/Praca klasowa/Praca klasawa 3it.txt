@@ -1,0 +1,63 @@
+Zadanie teoretyczne:
+
+Zadanie 1.
+Omów wszytskie słowa kluczowe w instrukcji switch case
+
+switch - przełącz
+case - zmienna
+break - przerwanie kodu
+default - domyślna część kodu
+
+2pkt
+
+Zadanie 2.Czym się różni pętla while od pętli do while? Wskaż wszystkie różnice
+
+- W pętli while warunek pojawia się na początku pętli a w do-while na końcu.
+- w pętki while iteracje nie występują, jeśli warunek przy pierwszej iteracji jest fałszywy a w do-while iteracja występuje co najmniej raz, nawet jeśli warunek jest fałszywy przy pierwszej iteracji.
+
+
+2 pkt
+
+Zadanie 3. Jakie rodzaje okien dialogowych mamy w JavaScript? Podaj fachową nazwę i opisz zastosowanie.
+
+- Metoda alert() wyświetla okienko z treścią komunikatu i przycisk OK. Po kliknięciu na przycisk nie zostaje zwrócona żadna wartość.
+- Metoda confirm() wyświetla okienko z treścią komunikatu i przyciski OK oraz Anuluj. Metoda zwraca wartość true, jeżeli użytkownik wcisnął przycisk OK, natomiast wartość false, jeżeli został wciśnięty klawisz Anuluj.
+- Metoda promt() wyświetla okienko z treścią komunikatu, pole do wpisania tekstu i przyciski OK oraz Anuluj. Jeżeli użytkownik kliknie przycisk OK, to zostanie zwrócona wartość z pola. Jeżeli użytkownik kliknie przycisk Anuluj, to zostanie zwrócona wartość null.
+
+3pkt
+
+Zadania praktyczne
+
+
+Zadanie 4. Napisz skrypt sprawdzający jaki mamy aktualnie miesiąc. Użyj instrukcji switch case. 2pkt
+a. Użyj metody obiektu Date do wyświetlenia aktualnej datej. 2pkt. Zadanie 4 zawiera 2 oddzielne skrypty. Za każdy uczeń otrzymuje 2 pkt. 
+4pkt
+
+Zadanie 5. Utwórz skrypt obliczający potęgę liczby 2. Zadanie rozwiąż za pomocą funkcji. 
+3pkt
+
+Zadanie 6.Napisz program, który wprowadzony przez użytkownik tekst (Przygotowuję się na bieżąco do egzaminu zawodowego) wyświetli w następujący sposób:
+-pochylony
+-pogrubiony
+-migotający
+-przekreślony
+-kolor czcionki niebieski
+-zmieni wszytskie znaki na duże litery
+-zwróci podłańchych :egzaminu
+Zastosuj właściwości poznanych obiektów 
+4pkt
+
+Zadanie 7.Napisz program, w którym utworzysz 3 zmienne o nazwie liczba 1  liczba 2, liczba 3 i przypiszesz do nich wartości liczbowe.Liczba 3 przyjmuje wartość ujemną.  
+Następnie:
+-oblicz pierwiastek kwadratowy liczby 1
+- Podnieś liczbę 1 do potęgi liczby 2
+- Wskaż liczbę największą
+- Oblicz logarytm naturalny z liczby 3
+- Oblicz wartość bezwzględną z liczby 3
+Zastosuj właściwości poznanych obiektów
+4 pkt
+
+Łącznie 22pkt do zdobycia,
+Powodzenia
+
+
