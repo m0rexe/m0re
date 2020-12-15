@@ -81,10 +81,9 @@ body {
     letter-spacing: 2px;
 }
 
-.contact-form, .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-form,
+.btn {
+    text-align: center;
     margin-top: 20px;
 }
 
