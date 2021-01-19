@@ -1,3 +1,8 @@
+<!-- 3.86 str 99 - utworzenie przycku button i przypisanie zdarzenia onclick ✅
+3.87 str 99 - do buttona dodaj funkcję obsługująca zdarzenie - funkcję pisz i wypisz stosowny komunikat ✅
+ 3.88 str 101 - wykorzystanie zdarzenie onmouseover, onmouseout, onmousedown, grafikę potrzebną pobierz z pixaby.pl ✅
+3.89 str 102 - po wciśnięciu przycisku myszy następuje zmiana grafiki.Po zwolnieniu przycisku następuje powrót do pierwotnej grafiki ✅ -->
+
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -13,8 +18,13 @@
 
     <input type="button" value="Klik" onclick="alert('Hey');">
     <input type="button" value="Pokaż" onclick=hello()>
+    <br>
 
-
+    <img src="./img/img1.jpg" id="getImage" width='50%' onmouseover="this.src='./img/img2.jpg'"
+        onmouseout="this.src='./img/img1.jpg'">
+    <br>
+    <img src="./img/img1.jpg" id="getImage2" width='50%' onmousedown="this.src='./img/img2.jpg'"
+        onmouseup="this.src='./img/img1.jpg'">
 
 
 </body>
