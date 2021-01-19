@@ -3,9 +3,4 @@
 // 3.88 str 101 - wykorzystanie zdarzenie onmouseover, onmouseout, onmousedown, grafikę potrzebną pobierz z pixaby.pl ✅
 // 3.89 str 102 - po wciśnięciu przycisku myszy następuje zmiana grafiki.Po zwolnieniu przycisku następuje powrót do pierwotnej grafiki ✅
 
-function hello() {
-
-    return alert('Witaj!');
-
-}
-
+const hello = () => alert('Witaj!');
