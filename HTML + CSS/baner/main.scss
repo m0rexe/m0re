@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 $grey: rgb(112, 112, 112);
-$light-grey: rgb(241, 236, 241);
 $white: #fff;
 $bg-color: #447d80;
 $font-color: #bdbdbd;
@@ -69,65 +68,5 @@ body {
   &__link {
     color: $font-color;
     text-decoration: none;
-  }
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.table {
-  &__row__img {
-    margin: 4em 1em;
-    width: 300px;
-    height: 200px;
-    border-radius: 5%;
-  }
-}
-
-.main {
-  height: 650px;
-  background: $light-grey;
-}
-
-.left {
-  padding: 3em 1em;
-  float: left;
-  width: 60%;
-
-  &__h2 {
-    font-size: 40px;
-    margin-bottom: 1em;
-  }
-
-  &__listitem {
-    margin-left: 3em;
-  }
-
-  &__listlink {
-    text-decoration: none;
-  }
-}
-
-.right {
-  float: left;
-  width: 40%;
-  min-height: 650px;
-
-  background-image: url('../img/unnamed.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.footer {
-  p {
-    text-align: center;
-    background: $bg-color;
-    color: $font-color;
-  }
-  label {
-    font-weight: 700;
   }
 }
