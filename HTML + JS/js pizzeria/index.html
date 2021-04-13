@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascriptowa Pizzeria!</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+    <script src="./script.js"></script>
+
+    <div class="title">
+        <h1 class="title__h1">Javascriptowa Pizzeria!</h1>
+    </div>
+    <div class="wrapper__card">
+        <div class="card">
+            <label class="card__txt">Ile pizz chcesz zamówić?</label>
+            <input type="number" id="iloscpizz" class="iloscpizz" value="1" />
+
+            <br />
+
+            <label class="card__txt">Jaki rodzaj pizzy?</label>
+            <select name="pizze" id="rodzajpizzy">
+                <option value="serowa">Serowa</option>
+                <option disabled>(ser)</option>
+                <option value="peperoni">Peperoni</option>
+                <option disabled>(ser, peperoni)</option>
+                <option value="havai">Havai</option>
+                <option disabled>(ser, szynka, ananas)</option>
+                <option value="kurczak">Kurczakowa</option>
+                <option disabled>(ser, kurczak, oliwki, kukurydza)</option>
+            </select>
+
+            <br />
+
+            <label class="card__txt">Gdzie mieszkasz?</label>
+            <select name="adres" id="adres">
+                <option value="floridaGardens">Florida Gardens</option>
+                <option value="connellyKeys">Connelly Keys</option>
+                <option value="zoilaBypass">Zoila Bypass</option>
+                <option value="nieWażne">Nie ważne</option>
+            </select>
+
+            <br />
+
+            <label class="card__txt">Czy masz urodziny?</label>
+
+            <select name="urodziny" id="uro">
+                <option value="nie">Nie</option>
+                <option value="tak">Tak</option>
+            </select>
+
+            <br />
+
+            <button onclick="oblicz()">Zamów!</button>
+        </div>
+    </div>
+
+    <div class="wrapper__wynik">
+
+        <div id="wynik" class="wynik">
+        </div>
+    </div>
+</body>
+
+</html>
