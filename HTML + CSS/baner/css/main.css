@@ -130,6 +130,55 @@ body {
   background-size: cover;
 }
 
+.wrapper__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact {
+  float: left;
+  width: 60%;
+  background: #7f7f81;
+}
+
+.contact__form {
+  padding: 20px;
+  margin: 20px;
+  padding-left: 30%;
+}
+
+.contact__label {
+  color: #bdbdbd;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contact__input, .contact__textarea {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.info {
+  text-align: center;
+  float: left;
+  width: 40%;
+  line-height: 1.4;
+  padding: 30px;
+}
+
+.info a {
+  text-decoration: none;
+}
+
 .footer p {
   text-align: center;
   background: #447d80;
