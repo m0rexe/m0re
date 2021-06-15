@@ -1,14 +1,11 @@
 oblicz = () => {
-  let i = document.getElementById('iloscpizz');
-  let iloscpizz = i.value;
-  let r = document.getElementById('rodzajpizzy');
-  let rodzaj = r.value;
-  let a = document.getElementById('adres');
-  let adres = a.value;
-  let u = document.getElementById('uro');
-  let uro = u.value;
+  let iloscpizz = Number(document.querySelector('#iloscpizz').value)
+  let rodzaj = document.querySelector('#rodzajpizzy').value
+  let adres = document.querySelector('#adres').value
+  let uro = document.querySelector('#uro').value
 
-  //   console.log(iloscpizz, rodzaj, adres, uro);
+
+  console.log(iloscpizz, rodzaj, adres, uro);
 
   let cenaserowa = 25;
   let skladnik = 4;
@@ -73,7 +70,7 @@ oblicz = () => {
 
   switch (rodzaj) {
     case 'serowa':
-      if (adres != 'nieWażne') {
+      if (adres != 'nieWazne') {
         if (uro != 'tak') {
           serowa()
         } else {
@@ -90,7 +87,7 @@ oblicz = () => {
       break;
 
     case 'peperoni':
-      if (adres != 'nieWażne') {
+      if (adres != 'nieWazne') {
         if (uro != 'tak') {
           peperoni()
         } else {
@@ -107,7 +104,7 @@ oblicz = () => {
       break;
 
     case 'havai':
-      if (adres != 'nieWażne') {
+      if (adres != 'nieWazne') {
         if (uro != 'tak') {
           havai()
         } else {
@@ -124,7 +121,7 @@ oblicz = () => {
       break;
 
     case 'kurczak':
-      if (adres != 'nieWażne') {
+      if (adres != 'nieWazne') {
         if (uro != 'tak') {
           kurczak()
         } else {
