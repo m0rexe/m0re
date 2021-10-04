@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+$contrast: #4b0081;
+$bg: #ffe5b5;
+
+body {
+  background: $bg;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  &__h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: $contrast;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.result {
+  margin-top: 25px;
+  p {
+    margin: 10px 0 0 0;
+  }
+}
