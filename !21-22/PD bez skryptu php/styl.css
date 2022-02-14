@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  font-family: Georgia;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #005b4f;
+  color: white;
+  text-align: center;
+  font-size: 50%;
+  height: 20px;
+}
+
+.baner {
+  background-color: #e1e2e1;
+  height: 400px;
+  padding: 20px;
+}
+
+.upper-baner,
+.bottom-baner {
+  background-color: #00897b;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #005b4f;
+  color: white;
+}
+
+footer > a {
+  color: white;
+}

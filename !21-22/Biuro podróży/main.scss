@@ -1,0 +1,63 @@
+$font-clr: #fff;
+$bg-primary: rgb(175, 238, 238);
+$bg-accent: rgb(72, 209, 204);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tahoma';
+}
+
+header,
+footer {
+  background: $bg-accent;
+  color: $font-clr;
+  text-align: center;
+  padding: 5px;
+}
+
+.ciasteczko {
+  background: rgb(139, 69, 19);
+  color: $font-clr;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+  background: $bg-primary;
+  width: 70%;
+  height: 600px;
+}
+
+img {
+  border: 1px grey solid;
+  height: 250px;
+  padding: 5px;
+}
+
+img:hover {
+  border: 1px black solid;
+  height: 300px;
+}
+
+.right {
+  float: left;
+  background: $bg-primary;
+  width: 30%;
+  height: 600px;
+  .list {
+    list-style: inside;
+    ol {
+      margin-left: 15px;
+    }
+  }
+  p {
+    font-size: 150%;
+  }
+}
